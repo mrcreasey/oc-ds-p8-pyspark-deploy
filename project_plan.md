@@ -33,3 +33,42 @@ Il n’est pas nécessaire d’entraîner un modèle pour le moment.
 - Definir et valider la chaine de traitement
 - Developper sur pyspark
 - Mettre à l'echelle sur un cluster Hadoop
+
+## Faire les cours
+
+- [Découvrez le cloud avec Amazon Web Services](https://openclassrooms.com/fr/courses/4810836-decouvrez-le-cloud-avec-amazon-web-services)
+- [Concevez des architectures Big Data](https://openclassrooms.com/fr/courses/4467491-concevez-des-architectures-big-data)
+- [Réalisez des calculs distribués sur des données massives](https://openclassrooms.com/fr/courses/4297166-realisez-des-calculs-distribues-sur-des-donnees-massives)
+
+## Stockage
+
+Buckets sur le cloud
+
+- Amazon S3 (Simple Storage Service)
+- Microsoft Azure Blob Storage (BLOB = Binary Large OBject)
+- Google Storage Buckets
+
+## Validation de la chaine de traitement
+
+Dans un premier temps, on développe une prémière chaine de traitement sur un machine gratuit :
+
+- [Développer avec PySpark en locale](https://sparkbyexamples.com/pyspark/how-to-install-and-run-pyspark-on-windows/)
+- [Devélopper en Pyspark sur Colaboratory](https://www.analyticsvidhya.com/blog/2020/11/a-must-read-guide-on-how-to-work-with-pyspark-on-google-colab-for-data-scientists/),
+- [Développer avec Pyspark sur Kaggle](https://www.kaggle.com/questions-and-answers/95448)
+- [Sagemaker Lab](https://eu-west-3.console.aws.amazon.com/sagemaker/home?region=eu-west-3#/getting-started)
+- [DataBricks Community](https://databricks.com/product/faq/community-edition)
+
+Note:
+
+- installation sur Windows - il faut installer Java SDK et copier Spark dans racine de C
+- sur Colab et Kaggle, commandes sont similaires (pip install)
+- sagemaker - il faut configurer les IAM Users, S3 buckets, ...`
+- Databricks Community - il faut un simple login - l'environnement est prête - plein d'exemples. Creer un cluster hadoop en un clique (nom du cluster)
+
+Une fois validé, on mont à l'échelle de Big Data, ou les couts peuvent monter rapidement
+
+## Traitement en PySpark
+
+- [Image classifier Transfer Learning avec Pyspark](https://docs.databricks.com/_static/notebooks/deep-learning/deep-learning-transfer-learning-keras.html)
+
+
