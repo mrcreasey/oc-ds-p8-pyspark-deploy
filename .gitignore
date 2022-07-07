@@ -8,7 +8,8 @@ ignore/
 
 # data files too large for source control
 # (see README.md or jupyter notebooks for data sources)
-data/
+# create sample of fruit data (25 images 100px x 100px
+# data/
 
 # python file to add table of contents (toc) to jupyter notebook
 add_toc.py
