@@ -6,6 +6,9 @@
 # put any (temporary) files to ignore in ignore directory
 ignore/
 
+# secret credentials
+.aws/
+
 # data files too large for source control
 # (see README.md or jupyter notebooks for data sources)
 # create sample of fruit data (25 images 100px x 100px
