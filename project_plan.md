@@ -53,7 +53,8 @@ Buckets sur le cloud
 Dans un premier temps, on développe une prémière chaine de traitement sur un machine gratuit :
 
 - [Développer avec PySpark en locale](https://sparkbyexamples.com/pyspark/how-to-install-and-run-pyspark-on-windows/)
-- [Devélopper en Pyspark sur Colaboratory](https://www.analyticsvidhya.com/blog/2020/11/a-must-read-guide-on-how-to-work-with-pyspark-on-google-colab-for-data-scientists/),
+- [Devélopper en Pyspark sur Colaboratory](https://www.analyticsvidhya.com/blog/2020/11/a-must-read-guide-on-how-to-work-with-pyspark-on-google-colab-for-data-scientists/)
+- <https://www.pauldesalvo.com/how-to-install-spark-on-google-colab/>
 - [Développer avec Pyspark sur Kaggle](https://www.kaggle.com/questions-and-answers/95448)
 - [Sagemaker Lab](https://eu-west-3.console.aws.amazon.com/sagemaker/home?region=eu-west-3#/getting-started)
 - [DataBricks Community](https://databricks.com/product/faq/community-edition)
@@ -69,6 +70,45 @@ Une fois validé, on mont à l'échelle de Big Data, ou les couts peuvent monter
 
 ## Traitement en PySpark
 
-- [Image classifier Transfer Learning avec Pyspark](https://docs.databricks.com/_static/notebooks/deep-learning/deep-learning-transfer-learning-keras.html)
+- [Image classifier Transfer Learning avec Pyspark](https://docs.databricks.com/applications/machine-learning/preprocess-data/transfer-learning-tensorflow.html)
 
 
+## Options BigData
+
+- Amazon AWS
+  - EC2 = base machine à configurer
+  - EMR = cluster de nodes EC2 à configurer
+  - Sagemaker Studio = Environnement DataScience Preconfiguré
+- Microsoft Azure
+  - via Databricks (qui peuvent être installé / transféré vers AWS/GCP)
+- Google GCP
+  - dev en Google Colab
+  - Kubernetes Cluster
+
+## Configurer Amazon Web Services
+
+- Sign Up (root)
+- Create IAM admin group and user
+
+## Initialiser Sagemaker Studio (premier 2 mois gratuits - fonctions limités)
+
+- Create Sagemaker policy
+- Create Sagemaker user (or apply policy to user)
+- Apprendre à monter/connecter/démonter un cluster EMR composé de EC2
+
+## Amazon EMR
+
+- il faut créer un script terraform, ou documenter le setup du cluster
+- Tutorial : <https://ec2spotworkshops.com/running_spark_apps_with_emr_on_spot_instances.html> 
+
+## Devéloppement local
+
+- échantillon de données en local
+- Créer un notebook en local pour faire le traitement de quelques images
+- permet de comprendre quel sont les parties qui change quand on met à l'échelle
+
+## Dataset - copie un échantillon de données à un bucket S3
+
+## PySpark
+
+copie notebook à Sagemaker Studio
